@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation Website</title>
+    <!-- Link CSS stylesheet -->
+    <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- Inside the Header -->
+    <header>
+        <div class="container">
+            <!-- Website logo -->
+            <div class="logo">
+                <img src="./Images/logo.jpeg" alt="Movie Recommendation Website">
+                <h1>Movie Recommendation Website</h1>
+            </div>
+
+            <!-- Hamburger menu icon -->
+            <div class="hamburger-icon">&#9776;</div>
+
+            <!-- Navigation bar (will be hidden on smaller screens) -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#top-rated">Top Rated Movies</a></li>
+                    <li><a href="#genres">Movie Genres</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <form action="#" method="GET">
+                    <input type="text" placeholder="Search for movies...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
+            <!-- Mobile navigation menu (hidden by default) -->
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#top-rated">Top Rated Movies</a></li>
+                    <li><a href="#genres">Movie Genres</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Inside the Main Content Section -->
+    <section id="home">
+        <div class="container">
+            <div class="movie-grid">
+                <!-- Movie Cards (generated dynamically with JavaScript) -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Movie Details Page (Create a separate HTML file for this page) -->
+    <link rel="stylesheet" href="./movie-details/movie-details.html">
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="/Images/Insta.jpeg"
+                                alt="Instagram"></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="/Images/fb.png"
+                                alt="Facebook"></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="/Images/Lnk.jpeg"
+                                alt="linkedIn"></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="/Images/snap.jpeg"
+                                alt="Snapchat"></a></li>
+                    <!-- Add more social media links as needed -->
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2023 Movie Recommendation Website. All rights reserved.</p>
+                <p>Designed and Developed by Prince J Gupta</p>
+                <!-- Add any additional credits or links here -->
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Link JavaScript file -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
